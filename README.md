@@ -86,4 +86,3 @@ Utilizar esses dados para popular a tabela HTML.
 ## 6- Exibição da Tabela HTML:
 Criar um componente para exibir os dados em uma tabela HTML. 😊
 
-

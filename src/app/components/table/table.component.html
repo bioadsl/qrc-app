@@ -1,0 +1,24 @@
+<table>
+    <thead>
+      <tr>
+        <th>Título de Eleitor</th>
+        <th>CPF</th>
+        <th>Nome</th>
+        <th>Mae</th>
+        <th>Pai</th>
+        <th>Nascimento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.tituloEleitor }}</td>
+        <td>{{ user.cpf }}</td>
+        <td>{{ user.nome }}</td>
+        <td>{{ user.mae }}</td>
+        <td>{{ user.pai }}</td>
+        <td>{{ user.nascimento | date }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <button (click)="saveToCSV()">Salvar como CSV</button>
+  <button (click)="saveToJSON()">Salvar como JSON</button>

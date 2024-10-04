@@ -1,0 +1,21 @@
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <label for="tituloEleitor">Título de Eleitor:</label>
+    <input id="tituloEleitor" formControlName="tituloEleitor" type="text" />
+  
+    <label for="cpf">CPF:</label>
+    <input id="cpf" formControlName="cpf" type="text" />
+  
+    <label for="nome">Nome:</label>
+    <input id="nome" formControlName="nome" type="text" />
+  
+    <label for="mae">Filiação:</label>
+    <input id="mae" formControlName="mae" type="text" />
+
+    <label for="pai">Filiação:</label>
+    <input id="pai" formControlName="pai" type="text" />
+  
+    <label for="nascimento">Data de Nascimento:</label>
+    <input id="nascimento" formControlName="nascimento" type="date" />
+  
+    <button type="submit">Adicionar</button>
+  </form>

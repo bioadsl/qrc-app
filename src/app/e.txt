@@ -1,0 +1,15 @@
+src/
+  app/
+    components/
+      form/
+        form.component.ts
+        form.component.html
+        form.component.css
+    models/
+      user.model.ts
+    services/
+      data.service.ts
+    app.component.ts
+    app.component.html
+    app.component.css
+    app.module.ts
